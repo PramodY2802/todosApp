@@ -1,0 +1,53 @@
+/* AddTodo.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(135deg, #007bff, #00ff99); /* Gradient from blue to green */
+  height: 100vh; /* Make the background cover the entire viewport */
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f9fa; /* Light Gray */
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #343a40; /* Dark Gray */
+}
+
+.form-label {
+  font-weight: bold;
+  color: #e9eef2; /* Gray */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da; /* Gray */
+  border-radius: 5px;
+}
+
+.btn-success {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745; /* Green */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Dark Green */
+}
